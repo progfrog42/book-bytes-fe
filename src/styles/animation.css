@@ -1,0 +1,22 @@
+@keyframes popup-anim {
+    0% {
+        background: rgba(0, 0, 0, 0);
+        opacity: 0;
+    }
+    100% {
+        background: rgba(0, 0, 0, 0.6);
+        opacity: 1;
+    }
+}
+.popup-back-enter-active {
+    animation: popup-anim 0.6s forwards;
+}
+.popup-back-done {
+    opacity: 1;
+}
+.popup-back-exit-active {
+    animation: popup-anim 0.6s reverse;
+}
+.popup-back.exited {
+    opacity: 0;
+}

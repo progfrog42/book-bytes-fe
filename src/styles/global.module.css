@@ -1,0 +1,28 @@
+.margin {
+    height: 4vh;
+}
+.head {
+    font-size: 2.2rem;
+}
+@media (max-width: 991px) {
+    .head {
+        font-size: 2.1rem;
+    }
+}
+@media (max-width: 767px) {
+    .head {
+        font-size: 1.9rem;
+    }
+    .margin {
+        height: 3vh;
+    }
+}
+@media (max-width: 575px) {
+    .margin {
+        height: 1vh;
+    }
+    .pd {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}

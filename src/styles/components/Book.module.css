@@ -1,0 +1,109 @@
+.block {
+    margin-top: 5vh;
+    text-align: center;
+    display: inline-block;
+}
+.block:hover .add_to_card {
+    opacity: 1;
+}
+.image {
+    width: 12.4rem;
+    height: 19.8rem;
+    border-radius: 0.6rem;
+}
+.image:hover {
+    cursor: pointer;
+}
+.name {
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin-top: 1rem;
+}
+.price {
+    margin-top: 0.5rem;
+    font-size: 1.7rem;
+}
+.add_to_card {
+    margin-top: 1.3rem;
+    width: 11rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    background: black;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+    opacity: 0;
+}
+.add_to_card:hover {
+    transform: scale(1.05);
+}
+@media (max-width: 1399px) {
+    .image {
+        height: 16rem;
+        width: 10rem;
+    }
+    .name {
+        font-size: 1.4rem;
+    }
+    .price {
+        font-size: 1.4rem;
+    }
+    .add_to_card {
+        margin-top: 1rem;
+        width: 9rem;
+        height: 2.6rem;
+        font-size: 1rem;
+    }
+}
+@media (max-width: 1199px) {
+    .add_to_card {
+        opacity: 1;
+    }
+}
+@media (max-width: 991px) {
+    .block {
+        margin-top: 4vh;
+    }
+    .image {
+        height: 12rem;
+        width: 7.5rem;
+        border-radius: 0.4rem;
+    }
+    .name {
+        font-size: 1.1rem;
+        margin-top: 0.8rem;
+    }
+    .price {
+        font-size: 1.1rem;
+    }
+    .add_to_card {
+        margin-top: 0.8rem;
+        width: 7.2rem;
+        height: 2.2rem;
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 575px) {
+    .block {
+        margin-top: 5vh;
+    }
+    .image {
+        height: 15rem;
+        width: 9.39rem;
+        border-radius: 0.5rem;
+    }
+    .name {
+        font-size: 1.2rem;
+    }
+    .price {
+        font-size: 1.2rem;
+    }
+    .add_to_card {
+        margin-top: 0.8rem;
+        width: 8rem;
+        height: 2.4rem;
+        font-size: 1rem;
+    }
+}

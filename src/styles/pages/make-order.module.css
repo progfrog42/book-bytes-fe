@@ -1,0 +1,206 @@
+.up_line {
+    display: flex;
+}
+.button_back {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    color: #F44336;
+    background-color: white;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+}
+.back_svg {
+    width: 2rem;
+    height: 2rem;
+    fill: #F44336;
+}
+.button_back:hover {
+    color: #ff1100;
+}
+.button_back:hover .back_svg {
+    fill: #ff1100;
+}
+.data_block {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.to_pay {
+    font-size: 2.2rem;
+    display: flex;
+    align-items: center;
+}
+.pay_price {
+    font-size: 2.4rem;
+    margin-left: 2rem;
+    display: inline-block;
+}
+.input_wrapper {
+    width: 35rem;
+    height: 4rem;
+    border-bottom: 0.2rem solid rgba(203, 41, 3, 0.5);
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.input {
+    font-size: 1.6rem;
+    width: 100%;
+    background-color: white;
+    border: none;
+    outline: none;
+    color: black;
+}
+.input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+.ps {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+.button_line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+.offer_block {
+    display: flex;
+    align-items: center;
+}
+.check {
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    border: 0.2rem solid black;
+    margin-right: 1.5rem;
+}
+.check:hover {
+    cursor: pointer;
+}
+.check_sl {
+    background-color: black;
+}
+.offer_text {
+    font-size: 1.4rem;
+}
+.button_pay {
+    width: 13rem;
+    height: 4rem;
+    background-color: black;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    margin-left: auto;
+}
+.button_pay:hover {
+    transform: scale(1.05);
+}
+@media (max-width: 1199px) {
+    .button_back {
+        font-size: 1.8rem;
+    }
+    .back_svg {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+    .to_pay {
+        font-size: 2rem;
+    }
+    .pay_price {
+        font-size: 2.2rem;
+    }
+    .button_pay {
+        width: 12rem;
+        height: 3.8rem;
+        font-size: 1.6rem;
+    }
+}
+@media (max-width: 991px) {
+    .to_pay {
+        font-size: 1.8rem;
+    }
+    .pay_price {
+        font-size: 2rem;
+    }
+    .input_wrapper {
+        width: 32rem;
+        height: 3.6rem;
+        margin-top: 2.5rem;
+    }
+    .input {
+        font-size: 1.5rem;
+    }
+    .button_pay {
+        width: 11rem;
+        height: 3.6rem;
+        font-size: 1.5rem;
+    }
+    .check {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-right: 1rem;
+    }
+    .offer_text {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 767px) {
+    .button_back {
+        font-size: 1.6rem;
+    }
+    .back_svg {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+    .to_pay {
+        font-size: 1.6rem;
+    }
+    .pay_price {
+        font-size: 1.8rem;
+    }
+    .input_wrapper {
+        width: 28rem;
+        height: 3.4rem;
+    }
+    .input {
+        font-size: 1.4rem;
+    }
+    .ps {
+        font-size: 1rem;
+    }
+    .button_pay {
+        width: 10rem;
+        height: 3.2rem;
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 575px) {
+    .button_back {
+        font-size: 1.4rem;
+    }
+    .back_svg {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+    .data_block {
+        align-items: center;
+    }
+    .check {
+        width: 1.4rem;
+        height: 1.4rem;
+        margin-right: 0.7rem;
+    }
+    .offer_text {
+        font-size: 1.1rem;
+    }
+}

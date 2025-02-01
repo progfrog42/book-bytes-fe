@@ -1,0 +1,124 @@
+.wrapper {
+    width: 50%;
+    position: relative;
+}
+.slider {
+    width: 100%;
+    position: absolute;
+    -webkit-appearance: none;
+    font-size: 0;
+}
+.red_line {
+    height: 0.3rem;
+    border-radius: 0.3rem;
+    background-color: #CB2903;
+    width: 100%;
+    top: 45%;
+    position: absolute;
+    z-index: 1;
+    transition: all 0s;
+}
+.slider:focus {
+    outline: none;
+}
+.slider::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 0.3rem;
+    cursor: pointer;
+    background: #431A20;
+    border-radius: 0.3rem;
+}
+.slider::-webkit-slider-thumb {
+    height: 1.8rem;
+    width: 1.8rem;
+    border-radius: 1rem;
+    background: #CB2903;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -0.7rem;
+    position: relative;
+    z-index: 2;
+}
+.slider:focus::-webkit-slider-runnable-track {
+    background: #431A20;
+}
+.slider::-moz-range-track {
+    width: 100%;
+    height: 0.3rem;
+    cursor: pointer;
+    background: #431A20;
+    border-radius: 0.3rem;
+    pointer-events: none;
+}
+.slider_up::-moz-range-track {
+    background: rgba(0, 0, 0, 0);
+}
+.slider::-moz-range-thumb {
+    height: 1.8rem;
+    width: 1.8rem;
+    border-radius: 1rem;
+    background: #CB2903;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -0.7rem;
+    position: relative;
+    z-index: 2;
+}
+.slider::-ms-track {
+    width: 100%;
+    height: 0.3rem;
+    cursor: pointer;
+    background: #431A20;
+    border-radius: 0.3rem;
+    position: relative;
+}
+.slider_up::-ms-track {
+    background: rgba(0, 0, 0, 0);
+}
+.slider::-ms-thumb {
+    height: 1.8rem;
+    width: 1.8rem;
+    border-radius: 1rem;
+    background: #CB2903;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -0.7rem;
+    position: relative;
+    z-index: 2;
+}
+.slider:focus::-ms-fill-lower {
+    background: #CB2903;
+}
+.slider:focus::-ms-fill-upper {
+    background: #CB2903;
+}
+@media (max-width: 1399px) {
+    .wrapper {
+        width: 40%;
+    }
+    .slider::-webkit-slider-thumb {
+        height: 1.6rem;
+        width: 1.6rem;
+        margin-top: -0.65rem;
+    }
+    .slider::-moz-range-thumb {
+        height: 1.6rem;
+        width: 1.6rem;
+        margin-top: -0.65rem;
+    }
+    .slider::-ms-thumb {
+        height: 1.6rem;
+        width: 1.6rem;
+        margin-top: -0.65rem;
+    }
+}
+@media (max-width: 767px) {
+    .wrapper {
+        width: 45%;
+    }
+}
+@media (max-width: 575px) {
+    .wrapper {
+        width: 60%;
+    }
+}

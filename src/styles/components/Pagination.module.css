@@ -1,0 +1,29 @@
+.block {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow_svg {
+    width: 3rem;
+    height: 3rem;
+    fill: black;
+}
+.arrow_svg:hover {
+    cursor: pointer;
+}
+.arrow_svg_no_click {
+    fill: rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+@media (max-width: 767px) {
+    .block {
+        margin-bottom: 3vh;
+    }
+    .arrow_svg {
+        width: 3.4rem;
+        height: 3.4rem;
+    }
+}

@@ -1,0 +1,75 @@
+.small {
+    font-size: 1.4rem;
+    margin-bottom: 3.6rem;
+}
+.description {
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+}
+.h_line {
+    display: flex;
+    margin-top: 4rem;
+    align-items: center;
+}
+.par {
+    font-size: 2rem;
+}
+.dot {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 0.9rem;
+}
+.href {
+    display: inline-block;
+    color: #CB2903;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.href:hover {
+    cursor: pointer;
+}
+.mb {
+    margin-bottom: 8vh;
+}
+@media (max-width: 1199px) {
+    .small {
+        font-size: 1.2rem;
+    }
+    .description {
+        font-size: 1.4rem;
+        margin-top: 1.3rem;
+    }
+    .par {
+        font-size: 1.8rem;
+    }
+    .h_line {
+        margin-top: 3rem;
+    }
+    .dot {
+        width: 0.6rem;
+        height: 0.6rem;
+        margin-right: 0.7rem;
+    }
+}
+@media (max-width: 575px) {
+    .small {
+        font-size: 1rem;
+    }
+    .description {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+    .par {
+        font-size: 1.6rem;
+    }
+    .h_line {
+        margin-top: 2.2rem;
+    }
+    .dot {
+        width: 0.4rem;
+        height: 0.4rem;
+        margin-right: 0.5rem;
+    }
+}

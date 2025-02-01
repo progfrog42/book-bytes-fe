@@ -1,0 +1,449 @@
+@keyframes spinner {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+.large_blocks {
+    display: inline-flex;
+    justify-content: center;
+}
+.large_block {
+    background-color: #431A20;
+    width: 63.5rem;
+    height: 30rem;
+    display: inline-flex;
+}
+.ml_auto {
+    margin-left: auto;
+}
+.large_book_img_block {
+    height: 100%;
+    width: 40%;
+    border: 0.3rem solid #431A20;
+    background-color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.large_book_img {
+    border-radius: 0.5rem;
+    width: 13.8rem;
+    height: 22rem;
+}
+.description_block {
+    padding: 3.1rem 5.5rem 2.7rem 2.5rem;
+    display: inline-flex;
+    flex-direction: column;
+    width: 60%;
+}
+.name_block {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 2.4rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+}
+.description_book {
+    font-size: 1.2rem;
+    color: white;
+}
+.add_to_card {
+    width: 15rem;
+    height: 4rem;
+    border-radius: 2rem;
+    color: white;
+    background-color: #CB2903;
+    margin-top: auto;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+}
+.add_to_card:hover {
+    transform: scale(1.05);
+}
+.padding_genres {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 3.1rem 3.7rem;
+}
+.line_genres {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+}
+.finder_genres_block {
+    margin-left: auto;
+}
+.finder_wrapper {
+    height: 2.8rem;
+    width: 12rem;
+    border-bottom: 0.1rem solid rgba(203, 41, 3, 0.5);
+    display: inline-flex;
+    align-items: center;
+}
+.finder_genres {
+    color: white;
+    font-size: 1.2rem;
+    width: 5rem;
+    flex: 1 0 auto;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0);
+}
+.finder_genres::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+.finder_genres:focus .finder_wrapper {
+    border-bottom: 0.1rem solid rgba(203, 41, 3, 1);
+}
+.find_svg {
+    width: 2rem;
+    height: 2rem;
+    fill: rgba(203, 41, 3, 0.5);
+    margin-left: 0.5rem;
+}
+.find_svg:hover {
+    fill: rgba(203, 41, 3, 1);
+    cursor: pointer;
+}
+.genres_list {
+    flex: 1 0 auto;
+    margin-top: 2.5rem;
+    width: 100%;
+    display: block;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.genre {
+    display: inline-block;
+    font-size: 1.4rem;
+    margin-right: 4.8rem;
+    color: white;
+    margin-bottom: 1.2rem;
+    border-bottom: 0.1rem solid rgba(203, 41, 3, 0)
+}
+.genre:hover {
+    cursor: pointer;
+    border-bottom: 0.1rem solid #CB2903;
+}
+.filter_block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 6vh;
+    align-items: center;
+}
+.filter_button {
+    width: 15rem;
+    height: 4rem;
+    background: white;
+    border: 0.1rem solid black;
+    border-radius: 2rem;
+    color: black;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filter_button:hover {
+    transform: scale(1.05);
+}
+.filter_svg {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.4rem;
+    fill: black;
+}
+.finder_text {
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.finder_svg {
+    fill: rgba(0, 0, 0, 0.5);
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-left: 0.4rem;
+    transform: translateY(-0.1rem);
+}
+.finder_svg:hover {
+    cursor: pointer;
+    fill: black;
+}
+.loading {
+    fill: #CB2903;
+    width: 2rem;
+    height: 2rem;
+    animation: spinner 800ms linear infinite;
+}
+.books {
+    margin-bottom: 3vh;
+    flex: 1 0 auto;
+}
+.empty_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    min-height: 10vh;
+}
+.empty_text {
+    font-size: 1.6rem;
+    color: #431A20;
+}
+@media (max-width: 1399px) {
+    .large_block {
+        width: 55rem;
+    }
+    .large_book_img {
+        width: 11.27rem;
+        height: 18rem;
+    }
+    .description_block {
+        padding: 2.6rem 4.5rem 2.2rem 2.2rem;
+    }
+    .name_block {
+        font-size: 2rem;
+    }
+    .description_book {
+        font-size: 1rem;
+    }
+    .add_to_card {
+        width: 12rem;
+        height: 3.6rem;
+        font-size: 1rem;
+    }
+    .padding_genres {
+        padding: 2.6rem 3.2rem;
+    }
+    .finder_wrapper {
+        height: 2.4rem;
+        width: 12rem;
+    }
+    .finder_genres {
+        font-size: 1rem;
+    }
+    .find_svg {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+    .genres_list {
+        margin-top: 2rem;
+    }
+    .genre {
+        font-size: 1.1rem;
+    }
+    .filter_block {
+        margin-top: 6vh;
+    }
+    .filter_button {
+        width: 12rem;
+        height: 3.6rem;
+        font-size: 1.1rem;
+    }
+    .filter_svg {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+}
+@media (max-width: 1199px) {
+    .large_block {
+        width: 46rem;
+        height: 20rem;
+    }
+    .large_book_img {
+        height: 16rem;
+        width: 10rem;
+    }
+    .description_block {
+        padding: 2.4rem 4rem 1.4rem 1.8rem;
+    }
+    .name_block {
+        font-size: 1.8rem;
+        margin-bottom: 0.3rem;
+    }
+    .description_book {
+        font-size: 0.9rem;
+    }
+    .add_to_card {
+        width: 10rem;
+        height: 3.2rem;
+        font-size: 0.9rem;
+    }
+    .padding_genres {
+        padding: 2.4rem 2.4rem;
+    }
+    .genre {
+        font-size: 0.9rem;
+    }
+    .filter_button {
+        width: 9rem;
+        height: 3.2rem;
+        font-size: 1rem;
+    }
+    .filter_svg {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+}
+@media (max-width: 991px) {
+    .large_block {
+        width: 34.5rem;
+    }
+    .large_book_img {
+        height: 13rem;
+        width: 8.1rem;
+    }
+    .description_block {
+        padding: 2rem 2.5rem 1.6rem 1.6rem;
+    }
+    .name_block {
+        font-size: 1.4rem;
+    }
+    .description_book {
+        font-size: 0.8rem;
+    }
+    .add_to_card {
+        width: 9rem;
+        height: 3rem;
+        font-size: 0.9rem;
+    }
+    .padding_genres {
+        padding: 2rem;
+    }
+    .finder_wrapper {
+        height: 2rem;
+        width: 10rem;
+    }
+    .finder_genres {
+        font-size: 0.9rem;
+    }
+    .find_svg {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+    .genres_list {
+        margin-top: 1.5rem;
+    }
+    .padding_genres {
+        padding: 2rem 2rem;
+    }
+    .filter_block {
+        margin-top: 4vh;
+    }
+    .filter_button {
+        width: 8rem;
+        height: 3rem;
+        font-size: 0.9rem;
+    }
+    .filter_svg {
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+}
+@media (max-width: 767px) {
+    .large_blocks {
+        flex-direction: column;
+    }
+    .large_block {
+        width: 100%;
+        height: 23rem;
+        margin-left: 0;
+    }
+    .ml_auto {
+        margin-top: 2vh;
+    }
+    .large_book_img {
+        height: 16rem;
+        width: 10rem;
+        border-radius: 0.5rem;
+    }
+    .description_block {
+        padding: 2rem 2.8rem 1.8rem 1.8rem;
+    }
+    .name_block {
+        font-size: 1.8rem;
+        margin-bottom: 0.6rem;
+    }
+    .description_book {
+        font-size: 0.9rem;
+    }
+    .add_to_card {
+        width: 10rem;
+        height: 3.2rem;
+        font-size: 1rem;
+    }
+    .finder_wrapper {
+        height: 3rem;
+        width: 12rem;
+    }
+    .finder_genres {
+        font-size: 1rem;
+    }
+    .find_svg {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+    .genres_list {
+        margin-top: 2rem;
+    }
+    .genre {
+        font-size: 1rem;
+        margin-right: 3rem;
+    }
+    .filter_block {
+        margin-top: 3vh;
+    }
+    .filter_button {
+        width: 10rem;
+        height: 3.2rem;
+        font-size: 1rem;
+    }
+    .filter_svg {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+}
+@media (max-width: 575px) {
+    .filter_block {
+        margin-top: 3vh;
+    }
+    .filter_button {
+        width: 10rem;
+        height: 3.2rem;
+        font-size: 1rem;
+    }
+    .filter_svg {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+}
+
+@media (max-width: 430px) {
+    .name_block {
+        font-size: 1.4rem;
+    }
+    .description_block {
+        padding: 2rem 2rem 1.8rem 1.8rem;
+    }
+    .description_book {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 370px) {
+    .description_book {
+        font-size: 0.8rem;
+    }
+    .name_block {
+        font-size: 1.2rem;
+    }
+}

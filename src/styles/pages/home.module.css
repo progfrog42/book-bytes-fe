@@ -1,0 +1,240 @@
+.wel_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.welcome_head {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 2.8rem;
+    color: black;
+    font-weight: bold;
+}
+.welcome_text {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2vh;
+    color: black;
+    width: 100%;
+}
+.grid {
+    flex: 1 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+.line_new_text {
+    display: flex;
+    justify-content: center;
+}
+.new_text_wrapper {
+    padding: 0.6rem 3.2rem;
+    border-bottom: 0.2rem solid #CB2903;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.text_new {
+    font-size: 1.8rem;
+    color: black;
+}
+.book {
+    display: flex;
+    margin-top: 6vh;
+}
+.image_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    width: 18.9rem;
+    height: 30rem;
+    border-radius: 1rem;
+}
+.description_block {
+    display: flex;
+    flex-direction: column;
+}
+.name {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+.description_text {
+    margin-top: 1.3rem;
+    font-size: 1.6rem;
+}
+.view_book {
+    width: 15rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #CB2903;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+    margin-top: auto;
+    border-radius: 2rem;
+}
+.view_book:hover {
+    transform: scale(1.05);
+}
+.under_text {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 8vh;
+}
+.link {
+    display: inline-block;
+    text-decoration: underline;
+    color: #431A20;
+}
+.link:hover {
+    color: #CB2903;
+    cursor: pointer;
+}
+@media (max-width: 1399px) {
+    .welcome_head {
+        font-size: 2.6rem;
+    }
+    .welcome_text {
+        font-size: 1.8rem;
+    }
+    .new_text_wrapper {
+        padding: 0.5rem 3rem;
+    }
+    .text_new {
+        font-size: 1.7rem;
+    }
+    .image {
+        width: 17.5rem;
+        height: 28rem;
+    }
+}
+@media (max-width: 1199px) {
+    .welcome_head {
+        font-size: 2.4rem;
+    }
+    .welcome_text {
+        font-size: 1.6rem;
+    }
+    .new_text_wrapper {
+        padding: 0.4rem 2.8rem;
+    }
+    .text_new {
+        font-size: 1.6rem;
+    }
+    .image {
+        width: 15.65rem;
+        height: 25rem;
+    }
+    .name {
+        font-size: 2.2rem;
+    }
+    .description_text {
+        font-size: 1.4rem;
+    }
+    .view_book {
+        width: 12rem;
+        height: 3.6rem;
+        font-size: 1.3rem;
+    }
+    .under_text {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 991px) {
+    .welcome_head {
+        font-size: 2.2rem;
+    }
+    .welcome_text {
+        font-size: 1.4rem;
+    }
+    .new_text_wrapper {
+        padding: 0.3rem 2.6rem;
+    }
+    .text_new {
+        font-size: 1.4rem;
+    }
+    .image {
+        width: 13.8rem;
+        height: 22rem;
+    }
+    .name {
+        font-size: 2.1rem;
+    }
+    .description_text {
+        font-size: 1.3rem;
+    }
+    .view_book {
+        width: 11rem;
+        height: 3.4rem;
+        font-size: 1.2rem;
+    }
+    .under_text {
+        margin-top: 10vh;
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 767px) {
+    .welcome_head {
+        font-size: 2rem;
+    }
+    .welcome_text {
+        font-size: 1.2rem;
+        margin-top: 4vh;
+    }
+    .image {
+        width: 11.3rem;
+        height: 18rem;
+        border-radius: 0.5rem;
+    }
+    .name {
+        font-size: 1.9rem;
+    }
+    .description_text {
+        font-size: 1.1rem;
+        margin-top: 0.6rem;
+    }
+    .view_book {
+        width: 10rem;
+        height: 3.2rem;
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 575px) {
+    .welcome_head {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+    .welcome_text {
+        font-size: 1rem;
+    }
+    .new_text_wrapper {
+        padding: 0.3rem 2.1rem;
+    }
+    .text_new {
+        font-size: 1.2rem;
+    }
+    .image {
+        width: 8.76rem;
+        height: 14rem;
+    }
+    .name {
+        font-size: 1.6rem;
+    }
+    .description_text {
+        font-size: 0.9rem;
+        margin-top: 0.3rem;
+    }
+    .view_book {
+        width: 9rem;
+        height: 2.6rem;
+        font-size: 0.9rem;
+    }
+}

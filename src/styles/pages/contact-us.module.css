@@ -1,0 +1,106 @@
+.text {
+    font-size: 1.8rem;
+    margin-top: 3vh;
+    max-width: 37%;
+}
+.hp_text {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 2vh;
+}
+.wrap {
+    display: block;
+    margin-top: 20vh;
+}
+.det_wrap {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.email_wrapper {
+    height: 4rem;
+    border-bottom: 0.2rem solid #CB2903;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.email {
+    color: black;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.det_text {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.offer_block {
+    margin-top: auto;
+    margin-bottom: 8vh;
+}
+.offer {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.6rem;
+}
+.offer:hover {
+    color: #CB2903;
+    cursor: pointer;
+}
+@media (max-width: 1199px) {
+    .text {
+        font-size: 1.6rem;
+        margin-top: 1.5vh;
+        max-width: 50%;
+    }
+    .hp_text {
+        margin-top: 3vh;
+    }
+    .offer {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 991px) {
+    .text {
+        font-size: 1.4rem;
+    }
+    .hp_text {
+        font-size: 1.6rem;
+    }
+    .email_wrapper {
+        height: 3.5rem;
+    }
+    .email {
+        font-size: 1.6rem;
+    }
+    .det_text {
+        margin-top: 0.8rem;
+        font-size: 1.1rem;
+    }
+    .offer {
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 767px) {
+    .text {
+        font-size: 1.2rem;
+        max-width: 65%;
+    }
+}
+@media (max-width: 575px) {
+    .offer_block {
+        text-align: center;
+    }
+    .text {
+        max-width: 90%;
+    }
+    .wrap {
+        margin-top: 25vh;
+        display: flex;
+        justify-content: center;
+    }
+}

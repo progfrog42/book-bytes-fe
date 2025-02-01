@@ -1,0 +1,236 @@
+.background {
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.window {
+    width: 80rem;
+    height: 42rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    display: flex;;
+    flex-direction: column;
+    padding: 3.4rem 3.2rem 1.5rem;
+}
+.filters_area {
+    width: 100%;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.price_line {
+    padding-bottom: 2rem;
+    border-bottom: 0.1rem solid black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.head_text {
+    font-size: 2rem;
+}
+.range_slider_block {
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price {
+    font-size: 1.6rem;
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+    width: 6rem;
+    text-align: center;
+}
+.genres_filter {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.genres_list {
+    margin-top: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 18rem;
+}
+.genres_list::-webkit-scrollbar {
+    background-color: white;
+    width: 0.3rem;
+}
+.genres_list::-webkit-scrollbar-thumb {
+    background-color: rgba(67, 26, 32, 0.3);
+    border-radius: 0.2rem;
+}
+.genre {
+    font-size: 1.4rem;
+    margin-right: 6rem;
+    padding: 0 0.6rem 0;
+    display: inline-block;
+    margin-top: 2rem;
+}
+.genre:hover {
+    cursor: pointer;
+}
+.genre_current {
+    border-bottom: 0.2rem solid #CB2903;
+}
+.under_line {
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+}
+.button {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+}
+.button:hover {
+    transform: scale(1.05);
+}
+.close {
+    background-color: white;
+    border: 0.1rem solid black;
+}
+.reset {
+    margin-left: auto;
+    background-color: black;
+    color: white;
+}
+.save {
+    background-color: #CB2903;
+    color: white;
+    margin-left: 1.8rem;
+}
+@media (max-width: 1399px) {
+    .window {
+        width: 70rem;
+        height: 36.75rem;
+        padding: 2.9rem 2.7rem 1.5rem;
+    }
+    .price_line {
+        padding-bottom: 1.5rem;
+    }
+    .head_text {
+        font-size: 1.7rem;
+    }
+    .price {
+        font-size: 1.4rem;
+        margin-left: 1.1rem;
+        margin-right: 1.1rem;
+        width: 5rem;
+    }
+    .genres_filter {
+        margin-top: 1.5rem;
+        margin-bottom: 0.7rem;
+    }
+    .genres_list {
+        max-height: 15rem;
+    }
+    .genre {
+        font-size: 1.1rem;
+        margin-right: 4rem;
+        padding: 0 0.4rem 0;
+        margin-top: 1.6rem;
+    }
+    .button {
+        width: 8rem;
+        height: 2.6rem;
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 1199px) {
+    .genre {
+        margin-top: 1.8rem;
+    }
+}
+@media (max-width: 767px) {
+    .window {
+        width: 55rem;
+        height: 60rem;
+    }
+    .head_text {
+        font-size: 1.8rem;
+    }
+    .price {
+        font-size: 1.5rem;
+        margin-left: 1.3rem;
+        margin-right: 1.3rem;
+    }
+    .genres_filter {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .genres_list {
+        max-height: 35rem;
+    }
+    .genre {
+        font-size: 1.3rem;
+        margin-right: 5rem;
+        margin-top: 2rem;
+    }
+    .button {
+        width: 9rem;
+        height: 2.8rem;
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 575px) {
+    .window {
+        width: 35rem;
+        height: 60rem;
+        padding: 2rem 2rem 1.5rem;
+    }
+    .price_line {
+        flex-direction: column;
+    }
+    .range_slider_block {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .price {
+        font-size: 1.3rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .head_text {
+        text-align: center;
+    }
+    .genres_list {
+        margin-top: 1rem;
+        text-align: center;
+        max-height: 36rem;
+    }
+    .genre {
+        font-size: 1.4rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .under_line {
+        justify-content: center;
+    }
+    .button {
+        margin: 0;
+    }
+    .close {
+        margin-right: auto;
+    }
+    .save {
+        margin-left: auto;
+    }
+}
+@media (max-height: 480px) {
+    .window {
+        height: 47rem;
+    }
+    .genres_list {
+        max-height: 25rem;
+    }
+}

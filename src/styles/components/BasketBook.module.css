@@ -1,0 +1,223 @@
+.basket_item {
+    display: flex;
+}
+.padding_item {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.first {
+    margin-top: 1vh;
+}
+.book_image {
+    width: 15rem;
+    height: 24rem;
+    border-radius: 0.6rem;
+}
+.book_image:hover {
+    cursor: pointer;
+}
+.info_block {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+.name_line {
+    display: flex;
+}
+.name {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.delete {
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.25);
+}
+.delete:hover {
+    cursor: pointer;
+    transform: rotate(90deg);
+}
+.delete_svg {
+    width: 2.8rem;
+    height: 2.8rem;
+    fill: black;
+}
+.description {
+    margin-top: 1.6rem;
+    font-size: 1.6rem;
+    max-width: 80rem;
+}
+.genres {
+    display: inline-block;
+}
+.genre {
+    width: 10rem;
+    height: 3rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+    border: 0.1rem solid black;
+    font-size: 1.4rem;
+    border-radius: 1.5rem;
+    margin-top: 1.4rem;
+}
+.price {
+    font-size: 2.2rem;
+    margin-top: auto;
+}
+@media (max-width: 1399px) {
+    .book_image {
+        height: 21rem;
+        width: 13.15rem;
+    }
+    .name {
+        font-size: 2.6rem;
+    }
+    .delete {
+        width: 3.6rem;
+        height: 3.6rem;
+    }
+    .delete_svg {
+        width: 2.6rem;
+        height: 2.6rem;
+    }
+    .description {
+        margin-top: 1.2rem;
+        font-size: 1.4rem;
+        max-width: 70rem;
+    }
+    .genre {
+        width: 9rem;
+        height: 2.8rem;
+        margin-right: 1.6rem;
+        font-size: 1.2rem;
+        margin-top: 1.2rem;
+    }
+    .price {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 1199px) {
+    .description {
+        max-width: 60rem;
+    }
+}
+@media (max-width: 991px) {
+    .padding_item {
+        margin-top: 2.5vh;
+        margin-bottom: 2.5vh;
+    }
+    .book_image {
+        height: 20rem;
+        width: 12.5rem;
+    }
+    .name {
+        font-size: 2.5rem;
+    }
+    .delete {
+        width: 3.4rem;
+        height: 3.4rem;
+    }
+    .delete_svg {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+    .description {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        max-width: 45rem;
+    }
+    .genre {
+        width: 8rem;
+        height: 2.4rem;
+        margin-right: 1.4rem;
+        font-size: 1.1rem;
+        margin-top: 1rem;
+    }
+    .price {
+        font-size: 1.8rem;
+    }
+}
+@media (max-width: 767px) {
+    .book_image {
+        height: 18rem;
+        width: 11.3rem;
+    }
+    .name {
+        font-size: 2.3rem;
+    }
+    .delete {
+        width: 2.8rem;
+        height: 2.8rem;
+    }
+    .delete_svg {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+    .info_block {
+        margin-left: 3rem;
+    }
+    .description {
+        margin-top: 0.5rem;
+        font-size: 0.9rem;
+        max-width: 30rem;
+    }
+    .genre {
+        width: 7rem;
+        height: 2.2rem;
+        margin-right: 1.2rem;
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .price {
+        font-size: 1.6rem;
+    }
+}
+@media (max-width: 575px) {
+    .padding_item {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    .book_image {
+        height: 15rem;
+        width: 9.39rem;
+        border-radius: 0.4rem;
+    }
+    .info_block {
+        margin-left: 2rem;
+    }
+    .name {
+        font-size: 1.6rem;
+    }
+    .description {
+        margin-top: 0.1rem;
+        font-size: 0.8rem;
+        max-width: 22rem;
+    }
+    .delete {
+        width: 2rem;
+        height: 2rem;
+    }
+    .delete_svg {
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+    .genre {
+        width: 5rem;
+        height: 1.8rem;
+        margin-right: 0.8rem;
+        font-size: 0.8rem;
+        margin-top: 0.3rem;
+    }
+    .price {
+        font-size: 1.4rem;
+    }
+}

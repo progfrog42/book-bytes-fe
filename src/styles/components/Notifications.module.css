@@ -1,0 +1,118 @@
+.list {
+    position: fixed;
+    top: 6rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 90%;
+    z-index: 5;
+}
+.list::-webkit-scrollbar {
+    width: 0;
+}
+.notification {
+    width: 32rem;
+    height: 9rem;
+    border-radius: 1rem;
+    background-color: #431A20;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+.error {
+    background-color: #E53935;
+}
+.up_line {
+    display: flex;
+    align-items: center;
+}
+.head {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+}
+.close {
+    width: 2.2rem;
+    height: 2.2rem;
+    fill: white;
+    transition: all 0.5s;
+    margin-left: auto;
+}
+.close:hover {
+    cursor: pointer;
+    transform: rotate(90deg);
+}
+.white {
+    fill: white;
+}
+.text {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.3rem;
+    color: white;
+    margin-top: 1rem;
+}
+@media (max-width: 1199px) {
+    .notification {
+        width: 26rem;
+        height: 7.3rem;
+        border-radius: 0.8rem;
+        padding: 0.8rem;
+        margin-left: 1.5rem;
+        margin-bottom: 0.6rem;
+    }
+    .head {
+        font-size: 1.3rem;
+    }
+    .close {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+    .text {
+        font-size: 1rem;
+        margin-top: 0.8rem;
+    }
+}
+@media (max-width: 991px) {
+    .notification {
+        width: 22rem;
+        height: 6.3rem;
+    }
+    .head {
+        font-size: 1.1rem;
+    }
+    .close {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+    .text {
+        font-size: 0.9rem;
+        margin-top: 0.6rem;
+    }
+}
+@media (max-width: 575px) {
+    .wrap {
+        width: 100%;
+    }
+    .list {
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .notification {
+        width: 100%;
+        margin-left: 0;
+        height: 7rem;
+    }
+    .head {
+        font-size: 1.3rem;
+    }
+    .close {
+        width: 2rem;
+        height: 2rem;
+    }
+    .text {
+        font-size: 1.1rem;
+        margin-top: 0.8rem;
+    }
+}

@@ -1,0 +1,198 @@
+.book_image_block {
+    display: flex;
+    justify-content: center;
+}
+.book_image {
+    height: 36rem;
+    width: 22.6rem;
+    border-radius: 0.6rem;
+}
+.right_block {
+    height: 100%;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.name {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.small_description {
+    margin-top: 1.7rem;
+    font-size: 1.7rem;
+}
+.genres {
+    display: block;
+}
+.genre {
+    margin-top: 1.7rem;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    border: 0.1rem solid black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.price_line {
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+}
+.add_to_card {
+    width: 15rem;
+    height: 4rem;
+    background-color: #CB2903;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    color: white;
+    font-size: 1.4rem;
+}
+.add_to_card:hover {
+    transform: scale(1.05);
+}
+.price {
+    margin-left: 4rem;
+    font-size: 2rem;
+}
+.large_description {
+    margin-top: 9vh;
+    font-size: 2rem;
+}
+@media (max-width: 1399px) {
+    .book_image {
+        height: 32rem;
+        width: 20rem;
+    }
+    .name {
+        font-size: 2.6rem;
+    }
+    .small_description {
+        margin-top: 1.2rem;
+        font-size: 1.7rem;
+    }
+    .genre {
+        margin-top: 1.4rem;
+        width: 10rem;
+        height: 2.8rem;
+        font-size: 1.3rem;
+        margin-left: 0.8rem;
+        margin-right: 0.8rem;
+    }
+    .add_to_card {
+        width: 13rem;
+        height: 3.8rem;
+        font-size: 1.3rem;
+    }
+    .price {
+        font-size: 1.8rem;
+    }
+    .large_description {
+        font-size: 1.8rem;
+    }
+}
+@media (max-width: 1199px) {
+    .small_description {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 991px) {
+    .book_image {
+        height: 28rem;
+        width: 17.5rem;
+    }
+    .name {
+        font-size: 2.4rem;
+    }
+    .small_description {
+        font-size: 1.2rem;
+    }
+    .large_description {
+        margin-top: 7vh;
+        margin-bottom: 2rem;
+        font-size: 1.6rem;
+    }
+}
+@media (max-width: 767px) {
+    .book_image {
+        height: 24rem;
+        width: 15rem;
+    }
+    .name {
+        font-size: 2.2rem;
+    }
+    .small_description {
+        font-size: 1rem;
+        margin-top: 0.8rem;
+    }
+    .genre {
+        margin-top: 1rem;
+        width: 7rem;
+        height: 2.2rem;
+        font-size: 1.1rem;
+        margin-left: 0.4rem;
+        margin-right: 0.4rem;
+    }
+    .add_to_card {
+        width: 11rem;
+        height: 3.2rem;
+        font-size: 1.1rem;
+    }
+    .price {
+        font-size: 1.6rem;
+        margin-left: 3rem;
+    }
+    .large_description {
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 575px) {
+    .h0 {
+        height: 0;
+    }
+    .book_image {
+        height: 22rem;
+        width: 13.8rem;
+    }
+    .right_block {
+        margin-top: 3vh;
+        margin-left: 0;
+        align-items: center;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .name {
+        font-size: 2.2rem;
+    }
+    .small_description {
+        font-size: 1.1rem;
+        text-align: center;
+        margin-top: 0.8rem;
+    }
+    .price_line {
+        margin-top: 2vh;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .price {
+        margin-left: 0;
+    }
+    .add_to_card {
+        margin-top: 2vh;
+        width: 12rem;
+        height: 3.4rem;
+        font-size: 1.2rem;
+    }
+    .large_description {
+        margin-top: 4vh;
+        text-align: center;
+        font-size: 1.2rem;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}

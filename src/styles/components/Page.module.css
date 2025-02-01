@@ -1,0 +1,45 @@
+.block {
+    display: inline-flex;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: white;
+    color: black;
+    font-size: 1.8rem;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+    border-radius: 50%;
+    border: 0.1rem solid black;
+    align-items: center;
+    justify-content: center;
+}
+.block_selected {
+    background-color: black;
+    color: white;
+}
+.block:hover {
+    cursor: pointer;
+}
+@media (max-width: 1399px) {
+    .block {
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.5rem;
+        margin-left: 0.4rem;
+        margin-right: 0.4rem;
+    }
+}
+@media (max-width: 1199px) {
+    .block {
+        width: 2.6rem;
+        height: 2.6rem;
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 767px) {
+    .block {
+        width: 2.8rem;
+        height: 2.8rem;
+        margin-left: 0.8rem;
+        margin-right: 0.8rem;
+    }
+}

@@ -1,0 +1,210 @@
+.block {
+    margin-top: 5vh;
+    display: flex;
+    width: 100%;
+}
+.image {
+    width: 14.6rem;
+    height: 22.3rem;
+    border-radius: 0.6rem;
+    margin-right: 4.4rem;
+}
+.description_block {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+.name {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+.description {
+    margin-top: 0.5rem;
+    font-size: 1.4rem;
+    max-width: 100rem;
+}
+.genre {
+    width: 8rem;
+    height: 2.6rem;
+    background-color: white;
+    border: 0.1rem solid black;
+    border-radius: 2rem;
+    margin-right: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+.downloads {
+    display: flex;
+    margin-top: auto;
+}
+.download {
+    width: 9rem;
+    height: 3.6rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+}
+.download:hover {
+    cursor: pointer;
+}
+.pdf {
+    background-color: #CB2903;
+}
+.epub {
+    margin-left: 2.1rem;
+    background-color: #1E88E5;
+}
+@media (max-width: 1399px) {
+    .image {
+        width: 12.52rem;
+        height: 20rem;
+        margin-right: 3.2rem;
+    }
+    .name {
+        font-size: 2.4rem;
+    }
+    .description {
+        font-size: 1.3rem;
+        max-width: 90rem;
+    }
+    .genre {
+        width: 7rem;
+        height: 2.4rem;
+        font-size: 1.1rem;
+    }
+    .download {
+        width: 8rem;
+        height: 3.4rem;
+        font-size: 1.4rem;
+    }
+    .epub {
+        margin-left: 1.7rem;
+    }
+}
+@media (max-width: 1199px) {
+    .block {
+        margin-top: 4vh;
+    }
+    .image {
+        width: 11.27rem;
+        height: 18rem;
+    }
+    .name {
+        font-size: 2.2rem;
+    }
+    .description {
+        margin-top: 0.3rem;
+        font-size: 1.2rem;
+        max-width: 75rem;
+    }
+    .genre {
+        width: 6rem;
+        height: 2.2rem;
+        font-size: 1rem;
+    }
+    .download {
+        width: 7rem;
+        height: 3.2rem;
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 991px) {
+    .block {
+        margin-top: 3vh;
+    }
+    .image {
+        width: 10rem;
+        height: 16rem;
+        margin-right: 2.6rem;
+    }
+    .name {
+        font-size: 2rem;
+    }
+    .description {
+        font-size: 1.1rem;
+        margin-top: 0.1rem;
+        max-width: 55rem;
+    }
+    .genre {
+        width: 6rem;
+        height: 2.2rem;
+        margin-right: 1.5rem;
+        margin-top: 0.7rem;
+    }
+    .download {
+        width: 6rem;
+        height: 3rem;
+        font-size: 1.2rem;
+    }
+    .epub {
+        margin-left: 1.2rem;
+    }
+}
+@media (max-width: 767px) {
+    .image {
+        width: 8.76rem;
+        height: 14rem;
+        border-radius: 0.4rem;
+        margin-right: 2rem;
+    }
+    .name {
+        font-size: 1.6rem;
+    }
+    .description {
+        font-size: 0.9rem;
+        margin-top: 0;
+        max-width: 40rem;
+    }
+    .genre {
+        width: 5rem;
+        height: 2rem;
+        margin-top: 0.4rem;
+        margin-right: 1.1rem;
+        font-size: 0.9rem;
+    }
+    .download {
+        width: 5rem;
+        height: 2.4rem;
+        font-size: 1rem;
+    }
+}
+@media (max-width: 575px) {
+    .image {
+        height: 15rem;
+        width: 9.39rem;
+        margin-right: 1.2rem;
+    }
+    .name {
+        font-size: 1.5rem;
+    }
+    .description {
+        font-size: 0.8rem;
+        max-width: 22rem;
+    }
+    .genre {
+        width: 4rem;
+        height: 1.6rem;
+        font-size: 0.8rem;
+    }
+    .download {
+        width: 4rem;
+        height: 2rem;
+        font-size: 0.9rem;
+    }
+    .epub {
+        margin-left: 0.9rem;
+    }
+}
+@media (max-width: 330px) {
+    .description {
+        max-width: 18rem;
+    }
+}

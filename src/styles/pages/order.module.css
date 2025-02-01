@@ -1,0 +1,62 @@
+.up_line {
+    display: flex;
+    align-items: center;
+}
+.price {
+    font-size: 2rem;
+    margin-left: auto;
+}
+.text {
+    font-size: 1.5rem;
+    margin-top: 1.6rem;
+}
+.bold {
+    display: inline-block;
+    font-weight: bold;
+}
+.block_list {
+    margin-top: 5vh;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.book_list {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-right: 2rem;
+}
+@media (max-width: 1199px) {
+    .text {
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 991px) {
+    .text {
+        font-size: 1.2rem;
+    }
+    .price {
+        font-size: 1.9rem;
+    }
+    .block_list {
+        margin-top: 2vh;
+    }
+}
+@media (max-width: 767px) {
+    .text {
+        font-size: 1.1rem;
+    }
+    .price {
+        font-size: 1.8rem;
+    }
+}
+@media (max-width: 575px) {
+    .text {
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+    .price {
+        font-size: 1.6rem;
+    }
+}
